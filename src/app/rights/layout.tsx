@@ -46,13 +46,7 @@ export default async function RightsLayout({
 }) {
   const pageMap = await getPageMap("/rights");
   return (
-    <Layout
-      navbar={navbar}
-      pageMap={pageMap}
-      footer={footer}
-      search={<Search />}
-      docsRepositoryBase="https://github.com/YOUR-GITHUB-USERNAME/alab-site/tree/main/content/rights"
-    >
+    <Layout navbar={navbar} pageMap={pageMap} footer={footer}>
       {children}
     </Layout>
   );
