@@ -43,15 +43,14 @@ const brandStyles = `
     color: #a8763e !important;
     font-weight: 600;
   }
-  main a,
-  main a.x\\:text-primary-600 {
+  main a {
     color: #a8763e !important;
   }
-  main h1, main h2, main h3 {
+  main h1, main h2, main h3, main h4 {
     color: #0d1b2a !important;
   }
   main strong {
-    color: #0d1b2a;
+    color: #0d1b2a !important;
   }
   footer, .nextra-sidebar-container, [class*="bg-gray-100"] {
     background-color: #f4f1ea !important;
