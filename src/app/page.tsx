@@ -30,6 +30,27 @@ const situations = [
     cta: "Records rights →",
   },
   {
+    emoji: "🚌",
+    title: "I'm Having Trouble Getting My Child to School",
+    body: "More than a mile from school? Free transportation is required. Has an IEP? Door-to-door may be required too.",
+    href: "/rights/transportation",
+    cta: "Transportation rights →",
+  },
+  {
+    emoji: "🏠",
+    title: "My Family's Housing Situation Has Changed",
+    body: "Doubled up, in a shelter, or in a motel? Your child can stay at their same school with transportation — no documents required to enroll.",
+    href: "/rights/homelessness",
+    cta: "Know your rights →",
+  },
+  {
+    emoji: "👨‍👩‍👧",
+    title: "My Child Is in Foster Care or Changing Placements",
+    body: "Federal law requires schools to keep your child enrolled and stable through placement changes whenever possible.",
+    href: "/rights/foster-care",
+    cta: "Foster care rights →",
+  },
+  {
     emoji: "📄",
     title: "I Need a Letter or Template",
     body: "Eight ready-to-use templates — public records requests, IEP meeting requests, suspension appeals, LDOE complaints, and more.",
@@ -46,7 +67,7 @@ const situations = [
 ];
 
 const stats = [
-  { value: "4", label: "Rights Pages" },
+  { value: "7", label: "Rights Pages" },
   { value: "8", label: "Legal Templates" },
   { value: "3+", label: "Laws Explained" },
   { value: "Free", label: "Always" },
