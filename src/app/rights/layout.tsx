@@ -27,15 +27,37 @@ const brandStyles = `
   .dark {
     --nextra-bg: 13, 27, 42;
   }
+  body {
+    background-color: #f4f1ea !important;
+  }
   .nextra-nav-container {
     border-bottom-color: rgba(201, 161, 59, 0.25) !important;
+  }
+  .nextra-navbar-blur {
+    background-color: rgba(244, 241, 234, 0.85) !important;
+  }
+  .nextra-sidebar-container {
+    background-color: #f4f1ea !important;
   }
   .nextra-sidebar-container a[data-active="true"] {
     color: #a8763e !important;
     font-weight: 600;
   }
-  footer {
-    border-top-color: rgba(201, 161, 59, 0.2) !important;
+  main a,
+  main a.x\\:text-primary-600 {
+    color: #a8763e !important;
+  }
+  main h1, main h2, main h3 {
+    color: #0d1b2a !important;
+  }
+  main strong {
+    color: #0d1b2a;
+  }
+  footer, .nextra-sidebar-container, [class*="bg-gray-100"] {
+    background-color: #f4f1ea !important;
+  }
+  hr.nextra-border, .nextra-border {
+    border-color: rgba(201, 161, 59, 0.3) !important;
   }
 `;
 
