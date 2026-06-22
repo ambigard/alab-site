@@ -13,6 +13,32 @@ export const metadata = {
     "Plain-language explanations of Louisiana education law for parents — discipline, special education, charter schools, records, and more.",
 };
 
+// ALAB brand palette, converted to the HSL values Nextra's theme system
+// expects (hue/saturation/lightness drive the entire primary color scale).
+// Gold accent #c9a13b -> hsl(43, 57%, 51%)
+// Navy #0d1b2a, Cream #f4f1ea
+const brandStyles = `
+  :root, .light, .dark {
+    --nextra-primary-hue: 43deg;
+    --nextra-primary-saturation: 57%;
+    --nextra-primary-lightness: 45%;
+    --nextra-bg: 244, 241, 234;
+  }
+  .dark {
+    --nextra-bg: 13, 27, 42;
+  }
+  .nextra-nav-container {
+    border-bottom-color: rgba(201, 161, 59, 0.25) !important;
+  }
+  .nextra-sidebar-container a[data-active="true"] {
+    color: #a8763e !important;
+    font-weight: 600;
+  }
+  footer {
+    border-top-color: rgba(201, 161, 59, 0.2) !important;
+  }
+`;
+
 const navbar = (
   <Navbar
     logo={
@@ -46,8 +72,16 @@ export default async function RightsLayout({
 }) {
   const pageMap = await getPageMap("/rights");
   return (
-    <Layout navbar={navbar} pageMap={pageMap} footer={footer}>
-      {children}
-    </Layout>
+    <>
+      <style dangerouslySetInnerHTML={{ __html: brandStyles }} />
+      <Layout
+        navbar={navbar}
+        pageMap={pageMap}
+        footer={footer}
+        docsRepositoryBase="https://github.com/ambigard/alab-site/tree/main/content"
+      >
+        {children}
+      </Layout>
+    </>
   );
 }
