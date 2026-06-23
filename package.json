@@ -10,6 +10,7 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
     "next": "16.0.10",
     "nextra": "^4.6.1",
     "nextra-theme-docs": "^4.6.1",

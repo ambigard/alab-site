@@ -107,6 +107,13 @@ const situations = [
     cta: "Explore the brain science library →",
   },
   {
+    emoji: "📚",
+    title: "I'm Looking for Programs or Resources",
+    body: "Community-submitted sports, music, summer programs, STEM opportunities, special needs services, and gifted enrichment — searchable by category.",
+    href: "/directory",
+    cta: "Browse the directory →",
+  },
+  {
     emoji: "📄",
     title: "I Need a Letter or Template",
     body: "Eight ready-to-use templates — public records requests, IEP meeting requests, suspension appeals, LDOE complaints, and more.",
@@ -149,6 +156,7 @@ export default function Home() {
           <div className="hidden md:flex items-center gap-6 text-sm">
             <a href="#rights" className="hover:opacity-80">Know Your Rights</a>
             <Link href="/templates" className="hover:opacity-80">Templates</Link>
+            <Link href="/directory" className="hover:opacity-80">Directory</Link>
             <a href="#resources" className="hover:opacity-80">Resources</a>
             <a href="#community" className="hover:opacity-80">Community</a>
             <a href="#about" className="hover:opacity-80">About</a>
