@@ -51,6 +51,27 @@ const situations = [
     cta: "Foster care rights →",
   },
   {
+    emoji: "🚫",
+    title: "My Child Is Being Bullied or Harassed",
+    body: "Schools must investigate, document, and respond — and report incidents to the state. Know exactly what's required.",
+    href: "/rights/bullying",
+    cta: "Bullying & discrimination rights →",
+  },
+  {
+    emoji: "🗣️",
+    title: "I Want a Bigger Voice at My Child's School",
+    body: "Board meetings must be open. PTAs have real legal standing. Here's how to make sure you're heard.",
+    href: "/rights/parent-involvement",
+    cta: "Parent involvement rights →",
+  },
+  {
+    emoji: "🧠",
+    title: "I Think My Child May Be Gifted",
+    body: "Louisiana delivers gifted services through an IEP — and a child can be both gifted and have a disability at the same time.",
+    href: "/rights/gifted",
+    cta: "Gifted education rights →",
+  },
+  {
     emoji: "📄",
     title: "I Need a Letter or Template",
     body: "Eight ready-to-use templates — public records requests, IEP meeting requests, suspension appeals, LDOE complaints, and more.",
@@ -67,7 +88,7 @@ const situations = [
 ];
 
 const stats = [
-  { value: "7", label: "Rights Pages" },
+  { value: "10", label: "Rights Pages" },
   { value: "8", label: "Legal Templates" },
   { value: "3+", label: "Laws Explained" },
   { value: "Free", label: "Always" },

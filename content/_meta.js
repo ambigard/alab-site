@@ -7,4 +7,7 @@ export default {
   transportation: "Transportation Rights",
   homelessness: "Homelessness & Housing",
   "foster-care": "Foster Care & Transitions",
+  bullying: "Bullying & Discrimination",
+  "parent-involvement": "Parent Involvement & PTA",
+  gifted: "Gifted Education",
 };
