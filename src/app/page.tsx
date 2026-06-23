@@ -114,6 +114,13 @@ const situations = [
     cta: "Browse the directory →",
   },
   {
+    emoji: "🎬",
+    title: "I Learn Better by Watching",
+    body: "Animated explainers, parent testimonials, school tours, and how-to videos for IEP meetings, McKinney-Vento, filing complaints, and more.",
+    href: "/videos",
+    cta: "Watch the video library →",
+  },
+  {
     emoji: "📄",
     title: "I Need a Letter or Template",
     body: "Eight ready-to-use templates — public records requests, IEP meeting requests, suspension appeals, LDOE complaints, and more.",
@@ -157,6 +164,7 @@ export default function Home() {
             <a href="#rights" className="hover:opacity-80">Know Your Rights</a>
             <Link href="/templates" className="hover:opacity-80">Templates</Link>
             <Link href="/directory" className="hover:opacity-80">Directory</Link>
+            <Link href="/videos" className="hover:opacity-80">Videos</Link>
             <a href="#resources" className="hover:opacity-80">Resources</a>
             <a href="#community" className="hover:opacity-80">Community</a>
             <a href="#about" className="hover:opacity-80">About</a>
