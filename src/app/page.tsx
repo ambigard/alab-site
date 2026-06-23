@@ -72,6 +72,34 @@ const situations = [
     cta: "Gifted education rights →",
   },
   {
+    emoji: "📋",
+    title: "I'm Getting My Child Ready for Pre-K",
+    body: "Eligibility, quality standards, and early screening for disabilities or giftedness — before kindergarten even starts.",
+    href: "/rights/prek3",
+    cta: "Pre-K rights →",
+  },
+  {
+    emoji: "📊",
+    title: "I Don't Understand My Child's Test Scores",
+    body: "What LEAP actually measures, required accommodations, and the real consequences of opting out.",
+    href: "/rights/testing",
+    cta: "Testing & accountability rights →",
+  },
+  {
+    emoji: "🎨",
+    title: "Cost Is a Barrier to Sports, Music, or Arts",
+    body: "Schools can't charge fees as a condition of attending public school — and there's a required waiver process.",
+    href: "/rights/sports-arts",
+    cta: "Sports, music & arts rights →",
+  },
+  {
+    emoji: "💻",
+    title: "I Want My Child to Have STEM & Tech Access",
+    body: "Louisiana is rolling out a new computer science requirement now — here's the timeline and what equitable access actually means.",
+    href: "/rights/stem",
+    cta: "STEM & technology rights →",
+  },
+  {
     emoji: "📄",
     title: "I Need a Letter or Template",
     body: "Eight ready-to-use templates — public records requests, IEP meeting requests, suspension appeals, LDOE complaints, and more.",
@@ -88,7 +116,7 @@ const situations = [
 ];
 
 const stats = [
-  { value: "10", label: "Rights Pages" },
+  { value: "14", label: "Rights Pages" },
   { value: "8", label: "Legal Templates" },
   { value: "3+", label: "Laws Explained" },
   { value: "Free", label: "Always" },

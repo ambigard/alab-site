@@ -10,4 +10,8 @@ export default {
   bullying: "Bullying & Discrimination",
   "parent-involvement": "Parent Involvement & PTA",
   gifted: "Gifted Education",
+  prek3: "Pre-K3 Programs",
+  testing: "Testing & Accountability",
+  "sports-arts": "Sports, Music & Arts",
+  stem: "STEM & Technology",
 };
