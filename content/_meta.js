@@ -14,4 +14,5 @@ export default {
   testing: "Testing & Accountability",
   "sports-arts": "Sports, Music & Arts",
   stem: "STEM & Technology",
+  "brain-science": "Brain Science & Best Practices",
 };

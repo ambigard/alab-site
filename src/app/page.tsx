@@ -100,6 +100,13 @@ const situations = [
     cta: "STEM & technology rights →",
   },
   {
+    emoji: "🧬",
+    title: "I Want to Understand How My Child's Brain Develops",
+    body: "Real research on early childhood, adolescence, trauma, music, and movement — translated into plain language for advocacy.",
+    href: "/rights/brain-science",
+    cta: "Explore the brain science library →",
+  },
+  {
     emoji: "📄",
     title: "I Need a Letter or Template",
     body: "Eight ready-to-use templates — public records requests, IEP meeting requests, suspension appeals, LDOE complaints, and more.",
